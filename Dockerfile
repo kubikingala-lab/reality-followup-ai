@@ -21,5 +21,5 @@ RUN pnpm build
 # Expose port
 EXPOSE 3000
 
-# Start the application with database migration
-CMD ["sh", "-c", "pnpm db:push && pnpm start"]
+# Start the application (migration runs first, but server starts even if migration fails)
+CMD ["sh", "-c", "pnpm db:push || echo 'Migration failed, starting anyway' && pnpm start"]
