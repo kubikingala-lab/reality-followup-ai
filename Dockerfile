@@ -21,5 +21,5 @@ RUN pnpm build
 # Expose port
 EXPOSE 3000
 
-# Start the application
-CMD ["pnpm", "start"]
+# Start the application with database migration
+CMD ["sh", "-c", "pnpm db:push && pnpm start"]
