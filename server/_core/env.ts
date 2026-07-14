@@ -13,4 +13,4 @@ export const ENV = {
   openaiApiUrl: process.env.OPENAI_API_URL ?? "https://api.openai.com/v1/chat/completions",
   schedulerSecret: process.env.SCHEDULER_SECRET ?? "default-scheduler-secret",
   port: parseInt(process.env.PORT ?? "3000", 10),
-};}
+};
