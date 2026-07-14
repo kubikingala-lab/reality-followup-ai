@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1783967347732,
+      "tag": "0000_hot_blonde_phantom",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1783967695684,
+      "tag": "0001_chubby_dexter_bennett",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1783968439111,
+      "tag": "0002_bored_vance_astro",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1784022811531,
+      "tag": "0003_bumpy_vulcan",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1784023231594,
+      "tag": "0004_cool_white_queen",
+      "breakpoints": true
+    }
+  ]
+}

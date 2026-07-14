@@ -1,0 +1,29 @@
+# Projektový TODO seznam
+
+- [x] Navrhnout datový model firemního profilu, leadů, komunikace a follow-up událostí
+- [x] Přidat databázové tabulky a bezpečně aplikovat migraci
+- [x] Připravit výchozí firemní profil a ukázkový lead Petr Novák
+- [x] Použít přihlášení firmy a chráněné CRM rozhraní
+- [x] Vytvořit český dashboard se statistikami podle stavu
+- [x] Vytvořit tabulku leadů s filtrováním, vyhledáváním a řazením
+- [x] Vytvořit formulář pro přidání nového leadu se všemi požadovanými poli
+- [x] Vytvořit detail leadu se všemi údaji a historií komunikace
+- [x] Umožnit ruční změnu stavu leadu
+- [x] Implementovat AI generování profesionální české e-mailové odpovědi bez odrážek
+- [x] Umožnit úpravu a přímé odeslání připravené odpovědi klientovi
+- [x] Ukládat odeslané zprávy a follow-upy do historie komunikace
+- [x] Implementovat automatické follow-upy po 1, 3 a 7 dnech bez odpovědi přes cron endpoint
+- [x] Nastavit centrální hodinovou kontrolu splatných follow-upů namísto samostatného plánu pro každý lead
+- [x] Zajistit idempotenci automatických follow-upů a evidenci poslední aktivity
+- [x] Odeslat upozornění majiteli aplikace při přijetí nového leadu
+- [x] Přidat export všech leadů do CSV
+- [x] Vytvořit české nastavení brandingu: název firmy, logo a primární barva
+- [x] Uložit logo do trvalého objektového úložiště a zobrazit jej v rozhraní
+- [x] Přizpůsobit vizuální systém zvolené primární barvě firmy
+- [x] Doplnit validační, chybové, načítací a prázdné stavy
+- [x] Doplnit Vitest testy pro CRM API, AI výstup a follow-up logiku
+- [x] Doplnit Vitest testy pro CRM tRPC API: AI odpověď, odeslání, cron aktivaci, změnu stavu a ownership chyby
+- [x] Ověřit TypeScript, sestavení a testy
+- [x] Vizuálně ověřit desktopové a mobilní rozhraní
+- [x] Opravit duplicitní React klíče v navigaci zjištěné při runtime kontrole
+- [x] Uložit finální kontrolní bod projektu a připravit předání
